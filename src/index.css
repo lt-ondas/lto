@@ -1,0 +1,92 @@
+:root {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Cores */
+  --primary-color: #02735E;
+  --dark-primary: #014034;
+  --card-background: #ffffff;
+  --shadow: rgba(0, 0, 0, 0.1);
+  --text-muted: #666666;
+  --black: #0D0D0D;
+  --white: #ffffff;
+  --dark-gray: #333333;
+  --light-gray: #f5f5f5; 
+  --medium-gray: #e0e0e0; 
+}
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--black);
+}
+
+a {
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Config. Font */
+.ubuntu-light {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.ubuntu-regular {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ubuntu-medium {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.ubuntu-bold {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.ubuntu-light-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.ubuntu-regular-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.ubuntu-medium-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.ubuntu-bold-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+body {
+    font-family: "Ubuntu", sans-serif;
+    background-color: var(--background-color);
+    color: #1a1a1a;
+}
