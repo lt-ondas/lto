@@ -9,6 +9,7 @@ function AppRoutes() {
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<Cap2 />}></Route>
+                <Route path="/lto" element={<Cap2 />}></Route>
                 <Route path="/transitorios" element={<Transitorios />}></Route>
                 <Route path="/Sobre" element={<About />}></Route>
                 <Route path="*" element={<ErrorPage />}></Route>
